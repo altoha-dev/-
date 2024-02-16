@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiss</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .message {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            font-size: 24px;
+            color: #000000;
+        }
+        .gif {
+            max-width: 80%; /* Уменьшаем максимальную ширину */
+            max-height: 80%; /* Уменьшаем максимальную высоту */
+            object-fit: contain; /* Сохраняем пропорции гифки */
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">Спасибо что досмотрела до конца (˶ᵔ ᵕ ᵔ˶)~⁠♡</div>
+        <img class="gif" src="kiss.gif" alt="GIF">
+        <a class="btn" href="flower.html">страница 🌷Цветы🌷</a>
+    </div>
+</body>
+</html>
